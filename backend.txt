@@ -16,3 +16,8 @@ frontend <----> api <----> backend <-----> database
     -> Routers (/signup, /signin etc)
     -> Middleware
     -> utils (file upload, mail send etc)
+
+we need to start express server after every change because of absence of hot reloading 
+
+Hot reloading (or hot module replacement) is a development feature where your server or application automatically reloads itself when you change the code, without you manually stopping and starting it every time.
+Hot reloading tools like nodemon, ts-node-dev (for TypeScript), or Webpack's hot reload do this automatically:
