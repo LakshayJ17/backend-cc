@@ -1,0 +1,18 @@
+Server is a software that serves 
+
+programming language - c++, java, js , goland, php
+database - mongo, mysql , postgresql, sqlite 
+
+frontend <----> api <----> backend <-----> database
+
+-> src 
+    - index
+    - app 
+    - constants
+
+    -> DB (database connect)
+    -> Models (schemas for data)
+    -> Controllers (func/ methods)
+    -> Routers (/signup, /signin etc)
+    -> Middleware
+    -> utils (file upload, mail send etc)
